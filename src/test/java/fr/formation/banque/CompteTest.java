@@ -12,7 +12,7 @@ public class CompteTest {
 	
 	@Before
 	public void setUp() throws Exception {
-		compte = new Compte(456123, 1000.00, "rdupont@gmail.com");
+		compte = new Compte(456123, 1000.00, "rupont@gmail.com");
 	}
 
 	@Test

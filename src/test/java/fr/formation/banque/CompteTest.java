@@ -30,7 +30,10 @@ public class CompteTest {
 		assertEquals("smartin@gmail.com", compte.getReferenceClient());
 	}
 
-
+	@Test
+	public void testGetNumero() {
+		assertEquals(456123, compte.getNumero());
+	}
 
 	@Test
 	public void testSetNumero() {

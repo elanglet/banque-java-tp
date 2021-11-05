@@ -23,7 +23,7 @@ public class CompteTest {
 		// On appelle la méthode à tester
 		long numero = compte.getNumero();
 		// On compare la valeur retournée avec la valeur attendue
-		assertEquals(456236, numero);
+		assertEquals(45236, numero);
 		
 		// assertTrue(456236 == numero);
 	}
